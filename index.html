@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO BATERIA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="bateria">BATERIA</h1>
+    <div id="teclas">
+        <div onclick="toqueTeclas(1)" data-key="keyq" class="tecla tecla1">Q</div>
+        <div onclick="toqueTeclas(2)" data-key="keyw" class="tecla tecla2">W</div>
+        <div onclick="toqueTeclas(3)" data-key="keye" class="tecla tecla3">E</div>
+
+        <div onclick="toqueTeclas(4)" data-key="keya" class="tecla tecla4">A</div>
+        <div onclick="toqueTeclas(5)" data-key="keys" class="tecla tecla5">S</div>
+        <div onclick="toqueTeclas(6)" data-key="keyd" class="tecla tecla6">D</div>
+
+        <div onclick="toqueTeclas(7)" data-key="keyz" class="tecla tecla7">Z</div>
+        <div onclick="toqueTeclas(8)" data-key="keyx" class="tecla tecla8">X</div>
+        <div onclick="toqueTeclas(9)" data-key="keyc" class="tecla tecla9">C</div>
+    </div>
+
+    <div class="compor">
+        <input type="text" class="input">
+        <button class="btnTocar">Tocar</button>
+    </div>
+
+    <audio src="sounds/keyq.wav" id="audiokeyq"></audio>
+    <audio src="sounds/keyw.wav" id="audiokeyw"></audio>
+    <audio src="sounds/keye.wav" id="audiokeye"></audio>
+    <audio src="sounds/keya.wav" id="audiokeya"></audio>
+    <audio src="sounds/keys.wav" id="audiokeys"></audio>
+    <audio src="sounds/keyd.wav" id="audiokeyd"></audio>
+    <audio src="sounds/keyz.wav" id="audiokeyz"></audio>
+    <audio src="sounds/keyx.wav" id="audiokeyx"></audio>
+    <audio src="sounds/keyc.wav" id="audiokeyc"></audio>
+    
+
+    <audio src="sounds/keyq.wav" class="audio1"></audio>
+    <audio src="sounds/keyw.wav" class="audio2"></audio>
+    <audio src="sounds/keye.wav" class="audio3"></audio>
+    <audio src="sounds/keya.wav" class="audio4"></audio>
+    <audio src="sounds/keys.wav" class="audio5"></audio>
+    <audio src="sounds/keyd.wav" class="audio6"></audio>
+    <audio src="sounds/keyz.wav" class="audio7"></audio>
+    <audio src="sounds/keyx.wav" class="audio8"></audio>
+    <audio src="sounds/keyc.wav" class="audio9"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
